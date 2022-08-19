@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+    border:none
+}
+
+body{
+    background-image: url(fundo.jpg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.titulos{
+    color:#F8F8FF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.parag1{
+    color:#F8F8FF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.loguin{    
+    width: 100%; 
+}    
+
+.checkboxx{
+    color: #F8F8FF;
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+}
+
+.logar{    
+    border-radius: 5px;
+    border-style: outset;     
+    font: bold 15px arial, sans-serif;
+    height: 25px;
+    width: 70px;  
+}
+
+.form{
+    width: 500px;   
+    padding: 5px;    
+    text-align: center;  
+    background: #03020259; 
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.loguin>input{
+    width: 70%;   
+    border-radius: 3px;
+    margin-top: 5px;
+    text-align: center;    
+}
+
+.genero{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color:#F8F8FF;    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.checkboxg{
+    color: #F8F8FF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+.termos-novidades{    
+    color:#F8F8FF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    padding-top: 10px;    
+}
+
+.cadastrar{
+    border-radius: 5px;
+    border-style: outset;     
+    font: bold 15px arial, sans-serif;
+    height: 25px;
+    width: 85px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.retornar{    
+    text-align: left;
+    margin-bottom: 15px;
+    color: #F8F8FF;
+}
+
+.retornar a{
+    color: #F8F8FF;
+    text-decoration: none;
+}
+
+.teste a{
+    color: #F8F8FF;    
+}

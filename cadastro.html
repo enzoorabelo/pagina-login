@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+
+    <main>
+        <form action="index.html" method="GET" class="form">
+            <header>
+                <h1 class="titulos">Cadastro</h1>
+            </header>
+
+            <div class="loguin">
+                <input type="text" name="nome" placeholder="Nome" required>
+                <input type="text" name="sobrenome" placeholder="Sobrenome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="senha" placeholder="Senha" required>
+                <input type="password" name="confirmesenha" placeholder="Confirme sua senha" required>
+            </div>
+
+            <header>
+                <h2 class="genero">Gênero</h2>
+            </header>
+            
+            <div class="checkboxg">
+                <input type="radio" name="genero" id="masculino" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" id="feminino" value="feminino" required>
+                <label for="feminio">Feminino</label>
+                <input type="radio" name="genero" id="personalizado" value="personalizado" required>
+                <label for="masculino">Personalizado</label>
+            </div>
+
+            <div class="termos-novidades">
+                <div class="quebra">
+                    <input type="checkbox" name="termos" id="termos" value="on">
+                    <label for="termos">Li e concordo com os termos.</label>
+                </div>
+
+                <div class="quebra">
+                    <input type="checkbox" name="novidades" id="novidades" value="on">
+                    <label for="notificacoes">Desejo receber novidades</label>
+                </div>  
+            
+
+            <div>
+                <button class="cadastrar">Cadastrar</button>
+            </div>
+
+                <div class="retornar">
+                    <a href="index.html">Retornar para a página de login</a>
+                </div>
+            
+            
+        
+        </form>
+    </main>    
+    
+</body>
+</html>
